@@ -1,0 +1,34 @@
+---
+title: "Word Prediction"
+author: "Erik Hirschfeld"
+date: "23 September 2019"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Word Prediction Algorithm
+
+The developed word prediction is based on the ngram technique.
+It is based on english language coming from twitter, blog and news data.
+
+## Demo Available
+
+A demo is available on Shiny:
+
+[https://elkfield.shinyapps.io/Text_Prediction/](https://elkfield.shinyapps.io/Text_Prediction/)
+
+
+## How the app works
+
+- On the left hand side it is possible to choose on what data the algorithm is built.
+- In the main window there is a textbox in which it is possible to enter a word or a phrase.
+- Directly under the textbox there will appear the predicted next word including the entered beginning of the phrase.
+- Additionally the three most likely words are also shown together with their probabilities
+
+## Thank you
+
+Thank you.
+
