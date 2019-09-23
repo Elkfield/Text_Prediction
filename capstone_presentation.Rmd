@@ -2,8 +2,9 @@
 title: "Word Prediction"
 author: "Erik Hirschfeld"
 date: "23 September 2019"
-output: beamer_presentation
+output: beamer_presentation 
 ---
+[//]:beamer_presentation, slidy_presentation
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -12,7 +13,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Word Prediction Algorithm
 
 The developed word prediction is based on the ngram technique.
-It is based on english language coming from twitter, blog and news data.
+
+The ngram technique calulates the probability for the next word based on the frequency of word combinations in existing text examples.
+
+It our case the ngram algorithm is based on english language coming from twitter, blog and news data.
 
 ## Demo Available
 
